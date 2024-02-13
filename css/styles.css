@@ -7,7 +7,6 @@
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
@@ -10019,6 +10018,7 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  background-color: #007bff;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #007bff;
@@ -10034,11 +10034,15 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    background-color: #007bff;
+
   }
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+       background-color: #007bff;
+
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
